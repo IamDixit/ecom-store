@@ -1,0 +1,27 @@
+.container {
+  padding: 24px 48px;
+}
+
+.search-box {
+  text-align: center;
+}
+
+.search-results {
+  max-height: 400px;
+  overflow-y: scroll;
+  width: 570px;
+}
+
+.search-results .ant-list-item-meta {
+  align-items: center !important;
+  cursor: pointer;
+}
+
+.result-results {
+  display: flex;
+  justify-content: center;
+}
+
+.meta {
+  margin-top: 24px;
+}
